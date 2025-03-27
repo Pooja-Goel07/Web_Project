@@ -47,7 +47,7 @@
     background-size: cover;
 }
 .container1{
-    background-image:url(image.png);background-size: cover ;
+    background-image:url(../assets/images/display_image_below-navbar.png);background-size: cover ;
     height: 470px;
     width: 100%;
 }
@@ -138,7 +138,7 @@
     width: 40px;
     height: 40px;
     background-color: rgb(255, 251, 251);
-    background-image: url(video-play.ico);
+    background-image: url(../assets/icons/video-play.ico);
     background-size: cover;
     border-radius: 50px;
 }
