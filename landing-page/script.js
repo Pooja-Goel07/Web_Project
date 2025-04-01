@@ -67,7 +67,7 @@ function displayNGOs(ngoList = ngos) {
                     <span class="category-tag">${ngo.category}</span>
                     <h3 class="card-title">${ngo.name}</h3>
                     <p class="card-text">${ngo.description}</p>
-                    <a href="${ngo.link}"> <button class="btn btn-primary">Connect</button></a>
+                    <a href="${ngo.link}"> <button class="darkk buttt btn-dark">Connect</button></a>
                 </div>
             </div>
         `;
