@@ -10,7 +10,7 @@ const ngos = [
     },
     {
         id: 2,
-        name: "Lorem Ipsum Foundationtream",
+        name: "Lorem Ipsum Foundation",
         category: "Health",
         link: "https://www.lipsum.com",
         description: "Organizing blood donation camps and providing emergency blood support to those in need.",
@@ -42,7 +42,7 @@ const ngos = [
     },
     {
         id: 6,
-        name: "CleanCity Movement",
+        name: "Lorem Ipsum Foundation",
         category: "Environment",
         link: "https://www.lipsum.com",
         description: "Organizing weekly city cleanup drives and promoting waste segregation.",
