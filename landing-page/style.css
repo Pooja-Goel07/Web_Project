@@ -66,8 +66,9 @@ body::-webkit-scrollbar {
 }
 .container1{
     background-image:url(../assets/images/display_image_below-navbar.png);background-size: cover ;
-    height: 470px;
+    /* height: 90%; */
     width: 100%;
+    height: 70vh;
 }
 .nav-main{
    
@@ -143,27 +144,30 @@ body::-webkit-scrollbar {
     align-items: center;
 }
 .inside-main-heading1{
+
     width:57%;
-    height: 150px;
+    height: 48%;
     margin: 0px;
     /* background-color: rgb(114, 114, 24); */
     line-height: 70px;
 }
 .inside-main-heading2{
     width:57%;
-    height: 60px;
+    height: 20%px;
     /* background-color: rgb(114, 114, 24); */
     margin: 8px;
     margin-top: 15px;
     
+    
 }
 .inside-main-heading3{
     width:57%;
-    height: 60px;
+    height: 18%;
     /* background-color: rgb(114, 114, 24); */
     margin: 8px;
     
 }
+
 .inside-box{
     display: flex;
 }
@@ -180,7 +184,7 @@ body::-webkit-scrollbar {
     font-weight: 600;
     /* padding-bottom: 12px; */
     /* margin-top: 2px; */
-
+    
 }
 #watch-logo{
     margin-left: 10px;
@@ -212,7 +216,80 @@ nav{
     color: whitesmoke;
 
 }
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .header, .navbar, .right-nav {
+        flex-direction: row;
+        text-align: center;
+        height: auto;
+    }
+    .nav-main {
+        height: auto;
+        padding: 10px 0;
+    }
+    #heading {
+        font-size: 2rem;
+    }
+    #sub-heading {
+        font-size: 1rem;
+    }
+}
 
+@media (max-width: 768px) {
+    .header{
+        height: auto;
+    }
+    #heading {
+        font-size: 2rem;
+        /* line-height: normal; */
+        
+    }
+    #sub-heading {
+        font-size: 1rem;
+        /* line-height: normal; */
+        
+    }
+
+    .head1, .head2 {
+        flex-direction: row;
+        justify-content: space-around;
+        /* gap: 5px; */
+    }
+    .head2{
+        width: 180px;
+    }
+    .head3 {
+        width: 100px;
+        margin-bottom: 5px;
+    }
+    .navbar {
+        flex-direction: row;
+        gap: 10px;
+    }
+    .right-nav {
+        font-size: 0.8rem;
+        flex-direction: row;
+        gap: 10px;
+    }
+    
+}
+@media(max-width:645px){
+    #heading{
+        line-height: normal;
+    }
+}
+@media (max-width: 480px) {
+    #heading {
+        font-size: 1.5rem;
+    }
+    #sub-heading {
+        font-size: 0.9rem;
+    }
+    .head1, .head2, .right-nav {
+        flex-direction: row;
+        text-align: center;
+    }
+}
 
 
 
