@@ -14,6 +14,89 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+
+/* Navbar section  */
+.nav-main{
+    
+   background-color: #b67676;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50px;
+    z-index: 1000;
+}
+.navbar{
+    width: 90%;
+    height: 65px;
+    background-color: pink;
+    background: transparent; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border: solid grey 0.5px;
+    border-radius: 40px;
+}
+#logo{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    margin-left: 25px;
+
+}
+.right-nav{
+    width: 63%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+
+#about a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#about a:hover,
+#about a.active {
+    color: #ff5733;
+}
+
+#about{
+    margin-left: 15px;
+    color: white;
+}
+
+#Donate-now{
+        font-weight: 600;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: rgb(235, 131, 26);
+        width: 120px;
+        height: 37px;
+        margin-left: 10px;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 5px;
+        /* padding-bottom: 12px; */
+        margin-top: 2px;
+    
+}
+
+
+
 /* Hero Section */
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x600');
@@ -77,7 +160,10 @@ body {
     font-weight: 600;
     text-align: center;
 }
-
+.header{
+    position: fixed;
+    z-index: 1000;
+}
 #icon{
     width: 22px;
     height: 22px;
