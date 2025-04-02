@@ -8,3 +8,6 @@
     border-radius: 14%;
     width: 80px
 }
+body::-webkit-scrollbar {
+    display: none;
+  }
