@@ -105,6 +105,10 @@ body {
         margin-top: 2px;
     
 }
+#Donate-now a{
+    text-decoration: none;
+    color: white;
+  }
 
 /* Responsive Design */
 @media (max-width: 1024px) {
