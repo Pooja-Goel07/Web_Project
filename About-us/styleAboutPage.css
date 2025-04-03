@@ -171,7 +171,96 @@ body {
     background-size: cover;
 }
 
+/* Team Section */
+.team {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
 
+.team-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #666;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.member {
+    margin: 20px;
+    flex: 0 0 23%;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.head2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 160px;
+    /* background-color: pink; */
+}
+#icon{
+    width: 22px;
+    height: 22px;
+    margin-right: 9px;
+    background-size: cover;
+    background-color: #000;
+}
+.member:hover {
+    transform: translateY(-10px);
+}
+
+.member-img {
+    overflow: hidden;
+}
+
+.member-img img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s;
+}
+
+.member:hover .member-img img {
+    transform: scale(1.05);
+}
+
+.member-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.member-info h3 {
+    color: #ff5733;
+    margin-bottom: 5px;
+}
+
+.member-info p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.member-social {
+    display: flex;
+    justify-content: center;
+}
+
+.member-social a {
+    margin: 0 8px;
+    color: #666;
+    transition: color 0.3s;
+}
+
+.member-social a:hover {
+    color: #ff5733;
+}
 
 /* Footer styles */
 .footer {
@@ -212,7 +301,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 20px;
-    margin-left: 32px;
+    /* margin-left: 32px; */
     /* position: relative; */
 }
 
