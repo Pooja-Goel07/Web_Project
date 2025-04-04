@@ -49,7 +49,7 @@ function populateMediaGrid() {
 
         card.innerHTML = `
             <div class="card h-100">
-                <img src="${item.imageUrl}" class="card-img-top" alt="${item.title}">
+                <img src="${item.imageUrl}" class="card-img-top" height="300px" alt="${item.title}">
                 <div class="card-body">
                     <h5 class="card-title">${item.title}</h5>
                     <p class="card-text">${item.description}</p>
