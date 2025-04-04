@@ -18,7 +18,7 @@ function sendMail(){
     //email from user to admin.
     emailjs.send("service_ykcmice", "template_pu0xbww", params)
     .then(function(response) {
-        alert("Email Sent to Admin Successfully!");
+        console.log("Email sent to admin successfully!", response);
     }, function(error) {
         alert("Failed to send email: " + error.text);
     });

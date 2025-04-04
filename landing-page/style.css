@@ -57,6 +57,10 @@ body::-webkit-scrollbar {
     font-weight: 600;
     text-align: center;
 }
+.head1 a{
+    text-decoration: none;
+    color: white;
+}
 .head3 a{
     text-decoration: none;
     color: white;

@@ -204,6 +204,10 @@ body::-webkit-scrollbar {
 
   
 }
+.head1 a{
+  text-decoration: none;
+  color: white;
+}
 .head2{
   display: flex;
   flex-direction: row;
