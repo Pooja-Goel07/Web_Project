@@ -111,12 +111,17 @@ body::-webkit-scrollbar {
      flex-wrap: wrap;
  }
  #logo{
-     width: 150px;
-     height: 40px;
-     background-color: black;
-     margin-left: 25px;
- 
- }
+    width: 150px;
+    height: 40px;
+    margin-left: 25px;
+    color:#ff5733;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 6px;
+
+}
  .right-nav{
      width: 63%;
      height: 45px;
