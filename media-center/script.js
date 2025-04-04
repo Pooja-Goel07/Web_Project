@@ -41,13 +41,11 @@ const mediaData = [
 function populateMediaGrid() {
     const mediaGrid = document.getElementById("media-grid");
 
-    // Clear existing content
-    mediaGrid.innerHTML = "";
+     mediaGrid.innerHTML = "";
 
-    // Loop through the media data and create cards
-    mediaData.forEach(item => {
+     mediaData.forEach(item => {
         const card = document.createElement("div");
-        card.classList.add("col-md-4"); // Bootstrap column class
+        card.classList.add("col-md-4"); 
 
         card.innerHTML = `
             <div class="card h-100">
@@ -64,5 +62,5 @@ function populateMediaGrid() {
     });
 }
 
-// Call the function when the page loads
+// Callinf the function when the page loads
 document.addEventListener("DOMContentLoaded", populateMediaGrid);
