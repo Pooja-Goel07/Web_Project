@@ -261,6 +261,14 @@ body {
     font-weight: 600;
     text-align: center;
 }
+.head3 a{
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+.head3:hover{
+    transform: ScaleX(1.1);
+}
 
 #icon{
     width: 22px;
